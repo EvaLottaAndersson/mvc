@@ -7,7 +7,7 @@ body {
 
 main {
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 600px;
     width: 80%;
 }
 
@@ -62,11 +62,35 @@ ul li {
     margin-top: 40px;
 }
 
-.center-column {
+.main-column {
     flex: 1;
     margin-top: 80px;
+    margin: 25px;
 }
 
 .right-column {
     flex: 1;
+}
+
+/*Galen style*/
+/* Stilar för h1-elementet */
+h1.crazy4 {
+    color: #ff00ff; /* Lila textfärg */
+    font-size: 48px; /* Storlek på texten */
+    text-transform: uppercase; /* Gör texten versaler */
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff; /* Lila textskugga */
+}
+
+/* Stilar för p-elementen */
+.crazy {
+color: #00ff00; /* Grön textfärg */
+font-size: 24px; /* Storlek på texten */
+margin-bottom: 20px; /* Lägg till mellanrum under paragraferna */
+transform: rotate(5deg); /* Rotera texten med 5 grader */
+}
+
+/* Effekt när man hovrar över länken */
+a:hover.crazy2 {
+transform: scale(1.5); /* Skala upp länken med 150% */
+rotate: 360deg; /* Rotera länken ett varv (360 grader) */
 }
