@@ -1,0 +1,28 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About{% endblock %}
+
+{% block body %}
+
+<body>
+    <div class="container">
+        <div class="main-column">
+            <h1>About</h1>
+            <h4> En kort presentation av kursen mvc. </h4>
+            <p>I kursen mvc kommer vi lära oss om objektorienterad PHP-programmering och jobba med kända webbramverk, 
+            enhetstestning, kodkvalitet och databaskopplingar. I kursen finns det sex stycken kursmoment där vi 
+            kommer bygga upp en hemsida från början till slut i olika delar. Avslutningsvis kommer det vara ett
+            projektarbete (kursmoment 7-10) där vi ska bygga en helt egen webbsida på nytt som sätter slutbetyget
+            för kursen. Kursen ger 7.5 hp. </p>
+            <a href="https://github.com/dbwebb-se/mvc">Länk till kursens Github Repo</a>
+        </div>
+        <div class="right-column">
+            <p>An image which can be clicked on.</p>
+            <a href="{{ asset('img/glider.svg') }}">
+                <img src="{{ asset('img/glider.svg') }}" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+    
+{% endblock %}

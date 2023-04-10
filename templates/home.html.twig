@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <h1>Home</h1>
+    <a href="{{ asset('img/me.jpg') }}">
+        <img src="{{ asset('img/me.jpg') }}" alt="" width="300">
+    </a>
+    
+    <p>Hej, mitt namn är Lotta och jag bor i ett parhus norr om Stockholm tillsammans med min sambo Rickard. 
+    Jag bodde i Karlskrona innan jag flyttade till Stockholm och kan ibland längta tillbaka till havet och lugnet, även om jag trivs väldigt bra där jag bor nu. 
+    Jag är 30 år gammal och mina fritidsintressen är att spela beachvolleyboll och att hålla på med "hemmafix". 
+    </p>
+
+{% endblock %}
